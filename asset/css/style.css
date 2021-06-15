@@ -1,0 +1,32 @@
+
+.fpad h1{
+	color:white;
+	padding-left:20px;
+}
+.fpad h4{
+	color:white;
+	padding-left:20px;
+}
+.fpad h3{
+	color:#FF334E;
+	padding-left:20px;
+}
+
+.banner{
+	background:url("//asset/photos/pizza.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	height:100%;
+}
+.btno{
+	background-color:#FF334E;
+	padding-left:20px;
+}
+.nav-item{
+	font-size:25px;
+	
+}
+.navbar-brand i{
+	    color:#FF334E;
+}
