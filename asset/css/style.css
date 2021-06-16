@@ -30,3 +30,72 @@
 .navbar-brand i{
 	    color:#FF334E;
 }
+
+.btna {
+	background-color:#FF334E;
+	margin-left:auto;
+	margin-right:auto;
+    display:block;
+	text-decoration: none;
+	color:white;
+	
+	
+
+}
+.tr{
+	display:inline-block;
+	text-decoration: none;
+	
+}
+.menuh h3{
+	text-align:center;
+	font-size:23px;
+}
+
+.menuh h2{
+	text-align:center;
+	font-size:23px;
+}
+
+.cartimg img{
+	width:375px;
+	height:375px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.dr {
+	color:#FF334E;
+}
+.picon{
+	color:white;
+}
+.fcard{
+	padding-left:30px;
+}
+.fcard h5{
+	color:#FF334E;
+}
+.why{
+	color:#FF334E;
+}
+.card img{
+	height:220px;
+	width:286px;
+}
+.card i{
+	color:#ff9900;
+}
+.btnp{
+	color:white;
+	background-color:#FF334E;
+	border-radius:12px;
+}
+.card{
+	text-align:center;
+	
+	
+}
+.menuh h2{
+	color:#FF334E;
+}
