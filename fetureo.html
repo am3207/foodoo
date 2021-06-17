@@ -50,25 +50,57 @@
 								</li>
 								
 								<li class="nav-item">
-								  <a class="nav-link active" href="#" ><h3>&nbsp; About-Us</h3></a>
+								  <a class="nav-link active" href="#" ><h3>&nbsp; Contact-us</h3></a>
 								</li>
 								
 								<li class="nav-item">
 								  <a class="nav-link active" href="cart.html" ><h3>&nbsp; &nbsp;<i class="bi bi-cart3"></i></h3></a>
 								</li>
 								
-								<li class="nav-item dropdown">
+								<!--<li class="nav-item dropdown">
 									 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 										<h3><i class="bi bi-person-circle"></i></h3>
 									 </a>
 									  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<li><a class="dropdown-item dr" href="#"><h5>Register</h5></a></li>
+										<li><a class="dropdown-item dr" href="register.html"><h5>Register</h5></a></li>
 										
 										<li><hr class="dropdown-divider"></li>
 										
-										<li><a class="dropdown-item dr" href="#"><h5>Sign-in</h5></a></li>
+										<li><a class="dropdown-item dr" href="login.html"><h5>Sign-in</h5></a></li>
 									  </ul>
-                               </li>
+                               </li>--->
+							   
+							   <li  class="nav-item bts" onclick="document.getElementById('id01').style.display='block'"style="width:auto;">
+							        <h3>&nbsp;<i class="bi bi-person-circle"></i></h3>
+									
+									<div id="id01" class="modal">
+  
+										  <form class="modal-content animate" >
+											<div class="imgcontainer">
+											 <a href="fetureo.html"> <span  class="close" title="Close Modal">&times;</span><a>
+											  
+											</div>
+
+											<div class="containero">
+											  <label for="uname"><b>Username</b></label>
+											  <input type="text" placeholder="Enter Username" name="uname" required>
+
+											  <label for="psw"><b>Password</b></label>
+											  <input type="password" placeholder="Enter Password" name="psw" required>
+												
+											  <button type="submit">Login</button>
+											  <label>
+												<input type="checkbox" checked="checked" name="remember"> Remember me
+											  </label>
+											</div>
+
+											<div class="containero" style="background-color:#f1f1f1">
+											 <a href="fetureo.html"> <button type="button" class="cancelbtn">Cancel</button></a>
+											  <span class="psw">Forgot <a href="#">password?</a></span>
+											</div>
+										  </form>
+									</div>
+								</li>
 							</ul>
 							  
 							</div>
